@@ -1,0 +1,8 @@
+
+interface Channel {
+    readonly attribute unsigned long  channelType;
+    readonly attribute unsigned long  idType;
+    attribute DOMString             ccid;
+    readonly attribute unsigned long  onid;
+};
+
